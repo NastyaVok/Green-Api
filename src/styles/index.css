@@ -1,0 +1,50 @@
+:root {
+    --color-green: #00aa85;
+    --color-light-green: #19e9bf;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-grey: #F0F2F5;
+  
+    --font-family: 'Source Sans Pro', sans-serif;
+
+    --font-size-big: 24px;
+    --font-size-medium: 18px;
+    --font-size-small: 14px;
+
+    --spacing-big: 30px;
+    --spacing-medium: 20px;
+    --spacing-small: 14px;
+
+    --border-radius: 10px;
+    --box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  *,  
+  ::after, 
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  li,
+  ul,
+  p,
+  button,
+  h1,
+  h2,
+  h3,
+  h4 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  a {
+    color: inherit;
+    cursor: none;
+    text-decoration: none;
+    outline: none;
+  }

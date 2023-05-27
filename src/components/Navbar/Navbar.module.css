@@ -1,0 +1,25 @@
+.container {
+    height: 100px;
+    background-color: var(--color-green);
+    display: flex;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    font-family: var(--font-family);
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 40px;
+    margin-right: var(--spacing-medium);
+}
+
+.title {
+    color: var(--color-white);
+    font-size: var(--font-size-small);
+    font-weight: 600;
+}
